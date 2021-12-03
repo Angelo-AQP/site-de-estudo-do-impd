@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site desenvolvido para os estudardes do Instituto Politécnico dos Dembos IMPD, para contribuir na sua formação.">
+    <meta name="keywords" content=" Politécnico dos Dembos, IMPD, Estuda aqui no IMPD, Topiicos IMPD, Estudantes IMPD">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="grupo 2 do IMPD">
+    <link rel="shortcut icon" href="img/favicon.png" class="img-fluid" type="image/x-icon">
+    <title>Estuda Aqui IMPD</title>
+    <!-- ----------stylos----------- -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="aos/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ----------/stylos----------- -->
+
+    <!-- ----------/stylos----------- -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- ----------/stylos----------- -->
+</head>
+
+<body>
+    <!-- ==============================header=================================== -->
+    <div id="header" class="cor">
+        <div class="container">
+            <nav class="nav justify-content-between d-flex align-items-center">
+                <a href="index.html"><img src="img/logo_header.svg" class="img-fluid" alt=""></a>
+                <a href="#" id="addactive" class="btn-meno d-block d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="header-collapse">
+                    <div class="meno-nav">
+                        <ul class="d-flex flex-column flex-lg-row">
+                            <li><a href="index.html" class="active">HOME</a></li>
+                            <li><a href="topicos-impd.html">TÓPICOS IMPD</a></li>
+                            <li>
+                                <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">ESTUDANTES IMPD></a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a href="impd-provas.html">PRVAS</a></li>
+                                    <li><a href="impd-trabalho-de-pes.html">TRABALHO DE TP e PAP</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="cursos.html">CURSOS</a></li>
+                            <li><a href="biblioteca-impd.html">BIBLIOTECA</a></li>
+                            <li class=""><a href="#" class="btn-logi">LOGI</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+    <!-- ==============================//header//=================================== -->
+
+
+    <!-- ==============================slider=================================== -->
+
+    <div class="" id="slider">
+        <div class="container mt-3 ">
+            <div class="row d-flex position-relative alinha-slider flex-column flex-lg-row pt-0  ">
+                <div class="col-12 mt-5 col-lg-6 box-tex-slider  text-center text-lg-start order-md-1 order-2">
+                    <h1>Estuda aqui no IMPD e Aprenda Mais</h1>
+                    <h5>Estuda mais</h5>
+                    <p>Site desenvolvido para os estudardes do Instituto Politécnico dos Dembos (IMPD) para contribuir na sua formação, então não perca mais tempo começa os seus estudos</p>
+                    <a href="topicos-impd.html">
+                        <div class="btn">Começa agora </div>
+                    </a>
+
+                    <div class="redes">
+                        <a href="#" class="redes-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="redes-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="redes-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 mt-5 col-lg-6  box-img-slider position-relative order-md-2 order-1">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/box-slider3.svg" class="d-block jut-img  m-auto  img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/box-slider2.svg" class="d-block jut-img  m-auto  img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="img/box-slider1.svg" class="d-block jut-img m-auto   img-fluid" alt="...">
+                            </div>
+                        </div>
+                        <div class="control-carrocel">
+                            <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+                                <span class="" aria-hidden="true"><img src="img/pre.svg"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+                                <span class="" aria-hidden="true"><img src="img/nex.svg" alt=""></span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5 box-container justify-content-lg-start justify-content-center">
+                <h5 class="text-center text-lg-start">Temos para se o seguinte</h5>
+                <div class="col-8 mt-4 mt-lg-0 col-lg-3 col-md-6">
+                    <div class="box-ser">
+                        <img src="img/slider-img-footer1.svg" alt=""><span>Conteúdos programático do IMPD</span>
+                    </div>
+                </div>
+
+                <div class="col-8 mt-4 mt-lg-0 col-lg-3 col-md-6">
+                    <div class="box-ser">
+                        <img src="img/slider-img-footer2.svg" alt=""><span>As melhores notas dos estudantes…</span>
+                    </div>
+                </div>
+                <div class="col-8 mt-4 mt-lg-0 col-lg-3 col-md-6">
+                    <div class="box-ser">
+                        <img src="img/slider-img-footer3.svg" alt=""><span>Mais formação com os cursos em vídeos…</span>
+                    </div>
+                </div>
+                <div class="col-8 mt-4 mt-lg-0 col-lg-3 col-md-6">
+                    <div class="box-ser">
+                        <img src="img/slider-img-footer4.svg" alt=""><span>Livros virtuais para mais conhecimentos…</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================//slider//=================================== -->
+
+
+    <!-- ==============================ojetivos=================================== -->
+
+    <div id="objetivos">
+        <div class="container  position-relative">
+            <div class="bg-objetivo"></div>
+            <div class="row container-objetivo ">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-column text-center">
+                        <h1>OBJETIVOS</h1>
+                        <h5 class="">Os nossos objetivos é facilitar o processo de aprendizagem dos estudantes do IMPD</h5>
+                    </div>
+                </div>
+                <div class="row gy-4 m-0  d-flex  justify-content-center justify-content-sm-start justify-content-lg-center w-100 ">
+                    <div class="col-12 justify-content-lg-center col-sm-6 col-lg-4 d-flex">
+                        <div class="box-objetivo">
+                            <div class="box-objetivo-text">
+                                <object id="cog1" type="image/svg+xml" data="img/icon-ojetivo1.svg"></object>
+                                <h5>INOVAÇÃO</h5>
+                                <p> Utilizando as novas tecnologias pra a evolução do ensino e aprendizagem.</p>
+                            </div>
+
+                            <span class="ptr"></span>
+                            <span class="ptl"></span>
+                            <span class="pbr"></span>
+                            <span class="pbl"></span>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 d-flex">
+                        <div class="box-objetivo">
+                            <div class="box-objetivo-text">
+                                <object id="cog2" type="image/svg+xml" data="img/icon-ojetivo2.svg"></object>
+                                <h5>MELHORAR</h5>
+                                <p> Tornar célere e dinâmico o processo de ensino e aprendizagem através de conteúdos virtuais .</p>
+                            </div>
+
+                            <span class="ptr"></span>
+                            <span class="ptl"></span>
+                            <span class="pbr"></span>
+                            <span class="pbl"></span>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 d-flex">
+                        <div class="box-objetivo">
+                            <div class="box-objetivo-text">
+                                <object id="cog3" type="image/svg+xml" data="img/icon-ojetivo3.svg"></object>
+                                <h5>CONTRIBUIR </h5>
+                                <p> contribuir na formação dos estudadas do Instituto Medio Politécnico dos Dembos.</p>
+                            </div>
+
+                            <span class="ptr"></span>
+                            <span class="ptl"></span>
+                            <span class="pbr"></span>
+                            <span class="pbl"></span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- =============================//ojetivos//=================================== -->
+
+
+    <!-- ==============================serviços====================================== -->
+    <div id="sevicos">
+        <div class="container">
+            <div class="row sem d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-12 mb-5 d-flex flex-column text-center">
+                        <h5>Serviços</h5>
+                        <p class="subp">Saiba mais sobre os nossos serviços, tudo que temos para te ajudar a se formar </p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center boxs-servico">
+                    <div class="col-5  cont-box-sevico">
+                        <div class="box-servico">
+                            <img src="img/icons-servicos/icon-servico1.png" data-aos="zoom-in" alt="">
+                            <h4>TÓPICOS IMPD</h4>
+                            <p>Os tópicos do IMPD serão publicados no site para que os estudantes possam ter acesso a eles a qualquer momento caso falte nas aulas ou não falte o professor</p>
+                        </div>
+                    </div>
+                    <div class="col-5 cont-box-sevico">
+                        <div class="box-servico">
+                            <img src="img/icons-servicos/icon-servico2.png" data-aos="zoom-in" alt="">
+                            <h4>ESTUDANTES IMPD</h4>
+                            <p>As melhores notas dos estudardes, notas de provas, as notas de trabalho de pesquisa e PAP estarão disponíveis no site para os estudantes de forma vietual</p>
+                        </div>
+                    </div>
+                    <div class="col-5 cont-box-sevico">
+                        <div class="box-servico">
+                            <img src="img/icons-servicos/icon-servico3.png" data-aos="zoom-in" alt="">
+                            <h4>CURSOS</h4>
+                            <p>Cursos online para ajudar na formação do estudantes os cursos serão feito no site ou no yotube, são cursos relacionados nos cursos do IMPD cursos praticos</p>
+                        </div>
+                    </div>
+                    <div class="col-5 cont-box-sevico">
+                        <div class="box-servico">
+                            <img src="img/icons-servicos/icon-servico4.png" data-aos="zoom-in" alt="">
+                            <h4>BIBLIOTECA </h4>
+                            <p>Uma biblioteca virtual de livros relacionado ao se curso livros de diversos temas para o ajudar na sua formação </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============================//serviços//=================================== -->
+
+
+    <!-- =============================cervicos-disponives=================================== -->
+    <div id="cervicos-disponives">
+        <div class="trans">
+            <div class="container">
+
+                <div class="col-12 d-flex justify-content-center">
+                    <h1>Serviços Disponíveis</h1>
+                </div>
+                <div class="row pand d-flex justify-content-center justify-content-between  ">
+                    <div class="col-3 box-sd">
+                        <h1 class="counter">-348</h1>
+                        <h2>TÓPICOS</h2>
+                    </div>
+                    <div class="col-3 box-sd">
+                        <h1 class="counter">-548</h1>
+                        <h2>NOTAS BOAS</h2>
+                    </div>
+                    <div class="col-3 box-sd">
+                        <h1 class="counter">-148</h1>
+                        <h2>CURSOS</h2>
+                    </div>
+                    <div class="col-3 box-sd">
+                        <h1 class="counter">-248</h1>
+                        <h2>LIVROS </h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- =============================//cervicos-disponives//=================================== -->
+
+
+    <!-- =============================devs=================================== -->
+    <div id="devs">
+        <div class="container">
+            <div class="row justify-content-center d-flex mgt">
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <h1>desenvolvedores</h1>
+                    <h5 class="text-center">Conhesa os desenvolvedores e resposavel pelo fociomento do sites </h5>
+                </div>
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-3 cont-box-devs">
+                        <div class="box-dev  bgimg1">
+                            <div class="redes">
+                                <a href="#"> <i class="fab fa-facebook-f " aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nome">
+                            <h3>ÂNGELO PUNGUI</h3>
+                            <h4>Estudante</h4>
+                        </div>
+                    </div>
+                    <div class="col-3 cont-box-devs ">
+                        <div class="box-dev  bgimg2">
+                            <div class="redes">
+                                <a href="#"> <i class="fab fa-facebook-f " aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nome">
+                            <h3>Marta Morgado Bale</h3>
+                            <h4>Estudante</h4>
+                        </div>
+                    </div>
+                    <div class="col-3 cont-box-devs">
+                        <div class="box-dev bgimg3">
+                            <div class="redes">
+                                <a href="#"> <i class="fab fa-facebook-f " aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nome">
+                            <h3>Rafael Jaulo Cotingo</h3>
+                            <h4>Estudante</h4>
+                        </div>
+                    </div>
+                    <div class="col-3 cont-box-devs">
+                        <div class="box-dev  bgimg4">
+                            <div class="redes">
+                                <a href="#"> <i class="fab fa-facebook-f " aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nome">
+                            <h3>Sara Isabel Alberto</h3>
+                            <h4>Estudante</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============================Noticias======================================= -->
+    <div id="noticias">
+        <div class="container">
+            <div class="row g-4 g-md-4 align-items-center flex-lg-row d-flex justify-content-xxl-center">
+                <div class="col-12 align-items-center d-flex nt col-lg-6 position-relative">
+                    <div class="box-noticias">
+                        <h5>Noticias</h5>
+                        <h1>Estudantes do IMPD criam site para o instituto </h1>
+                        <p>Criamos este site para jugadar na formação dos estudantes e melhorar o ensino no IMPD, e resolver certos problema que enfrentamos, o site será de grade ajuda pra os estudantes do Instituto Medio Politécnicos dos Debos</p>
+                        <div class="Noticias-redes">
+                            <a href="#" class="redes-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="redes-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="redes-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 align-items-center mb-5  nt col-lg-6 d-flex justify-content-center justify-content-lg-end  ">
+                    <div id="carouselExampleInterval" class="carousel slide w-75" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div data-aos-offset="0" class="carousel-item active" data-bs-interval="10000">
+                                <img src="img/img-logi.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="img/img-noticias/img-noticias2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/img-noticias/img-noticias3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============================cursos=================================== -->
+
+
+    <!-- =============================//cursos//=================================== -->
+
+    <!-- =============================acessa-materia=================================== -->
+    <div id="acessa">
+        <div class="container w-100">
+            <div class="row w-auto">
+                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class=" acessa-image d-flex justify-content-center justify-content-lg-start col-lg-6 position-relative">
+                    <img src="img/Interseção.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="acessa-texto d-flex align-items-center">
+                        <div class="box-text-am d-flex flex-column align-items-center align-items-lg-end">
+                            <h1 class="text-lg-end mb-lg-5 text-center">ESTUDANDO AQUI É IMPOSSÍVEL PERDER MATERIAS</h1>
+                            <h2 class="text-lg-end text-center">ACESSA AS MATERISA AGORA E NÃO PERDA NEHUMA </h2>
+                            <a href="topicos-impd.html" class="btn  mt-lg-5">ACESSAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============================//acessa-materia//=================================== -->
+
+
+    <!-- =============================acessa-curso=================================== -->
+    <div id="acessa-c">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center justify-content-center order-md-1 order-2">
+                    <div class="acessa-texto justify-content-center d-flex align-items-center align-items-lg-start flex-column">
+                        <h1 class=" text-lg-start">Cursos Online Relacionados Ao Se Curso</h1>
+                        <h2 class="text-center mt-lg-5 text-lg-start">acessar e faça o seu curso</h2>
+                        <a href="cursos.html" class="btn mb-4">ACESSAR</a>
+                    </div>
+                </div>
+                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="acessa-image col-lg-6 order-md-2 order-1">
+                    <img src="img/acessa-c.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============================//acessa-curso//=================================== -->
+
+    <!-- ==============================logi-home================================= -->
+    <div id="logi-home">
+        <div class="img-logi">
+        </div>
+        <div class="box-logi">
+            <div class="container d-flex justify-content-center flex-column align-items-center h-100">
+                <form class=" mb-3">
+                    <div class="box-form  d-flex flex-column align-items-center justify-content-center w-100">
+                        <h1>Login</h1>
+                        <h6 class="w-100 d-flex justify-content-start">Name</h6>
+                        <input class=" mb-3" type=" text " name=" " id=" " placeholder="seu nome">
+                        <h6 class="w-100 d-flex justify-content-start">E-mail</h6>
+                        <input class="mb-3 " type="email " name=" " id=" " placeholder="seu-@gmail.com">
+                        <h6 class="w-100 d-flex justify-content-start">Password</h6>
+                        <input type="password" name=" " id=" " placeholder="sua senha">
+                        <a href="# "><button class="btnl mt-4 mb-2">Login</button></a>
+                        <a href="#" class="w-100 text-center">Escreva-se</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- =============================//logi-home//=================================== -->
+
+
+    <!-- ==============================footer================================= -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12 mt-2 d-flex flex-column justify-content-center justify-content-md-start">
+                    <img src="img/logo-footer.svg" alt="">
+                    <div class="footer-redes d-flex flex-column align-items-center ali justify-content-center">
+                        <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i>  facebook</a>
+                        <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>   twitter</a>
+                        <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i>  youtube</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 d-flex justify-content-center footer-serviço">
+                    <h5>Serviços:</h5>
+                    <ul class="d-flex flex-column">
+                        <li><a href="index.html" class="active">HOME</a></li>
+                        <li><a href="topicos-impd.html">TÓPICOS IMPD</a></li>
+                        <li>
+                            <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">ESTUDANTES IMPD></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a href="impd-provas.html">PRVAS</a></li>
+                                <li><a href="impd-trabalho-de-pes.html">TRABALHO DE TP e PAP</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="cursos.html">CURSOS</a></li>
+                        <li><a href="biblioteca-impd.html">BIBLIOTECA</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12 d-flex align-items-center  m-md-0 justify-content-center justify-content-md-end">
+                    <div class="footer-inf">
+                        <h6 class="text-end">Angola/Bengo/Dembod/Quibaxe</h6>
+                        <h6 class="text-end">+244 944 442 995</h6>
+                        <h6 class="text-end">estuadaaquiimpd@mail.com</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h4>© Estuda aqui IMPD 2021</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- =============================//footer//=================================== -->
+
+    <!-- ------------------aos------------- -->
+    <script src="aos/aos.js"></script>
+    <script src="js/script-aos.js"></script>
+    <!-- ------------------aos------------- -->
+
+    <!-- ------------------counterup------------- -->
+    <script src="js/jquery.waypoints.min.js "></script>
+    <script src="js/jquery.counterup.min.js "></script>
+    <!-- ------------------/counterup------------- -->
+
+    <!-- ------------------vivus------------- -->
+    <script src="js/vivus.min.js "></script>
+    <!-- ---------------/vivus------------- -->
+
+    <!-- ---------------script-js------------- -->
+    <script src="js/script.js "></script>
+    <!-- ---------------script-js------------- -->
+
+    <!-- ---------script do bootstrap----------- -->
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <!-- --------script do bootstrap----------- -->
+
+</body>
+
+</html>
