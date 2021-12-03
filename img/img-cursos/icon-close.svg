@@ -1,0 +1,11 @@
+<svg id="icon-close" xmlns="http://www.w3.org/2000/svg" width="46.734" height="46.734" viewBox="0 0 46.734 46.734">
+  <g id="Bounding_Boxes">
+    <path id="Caminho_3343" data-name="Caminho 3343" d="M0,0H46.734V46.734H0Z" fill="none" opacity="0.87"/>
+  </g>
+  <g id="Outline_1_" transform="translate(3.895 3.895)">
+    <g id="Grupo_339" data-name="Grupo 339">
+      <path id="Caminho_3344" data-name="Caminho 3344" d="M21.473,2A19.473,19.473,0,1,0,40.945,21.473,19.455,19.455,0,0,0,21.473,2Zm0,35.051A15.578,15.578,0,1,1,37.051,21.473,15.6,15.6,0,0,1,21.473,37.051Z" transform="translate(-2 -2)" fill="#ff4311"/>
+      <path id="Caminho_3345" data-name="Caminho 3345" d="M23.727,7l-6.991,6.991L9.746,7,7,9.746l6.991,6.991L7,23.727l2.746,2.746,6.991-6.991,6.991,6.991,2.746-2.746-6.991-6.991,6.991-6.991Z" transform="translate(2.736 2.736)" fill="#ff4311"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg id="btn-play" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <path id="Caminho_5" data-name="Caminho 5" d="M14.563,8,0,0V16Z" transform="translate(27.726 27)" fill="#ff4311"/>
+  <g id="btn-play-2" data-name="btn-play" fill="none" stroke="#ff4311" stroke-width="2">
+    <circle cx="35" cy="35" r="35" stroke="none"/>
+    <circle cx="35" cy="35" r="34" fill="none"/>
+  </g>
+</svg>
