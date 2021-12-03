@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="33" viewBox="0 0 106 33">
+  <g id="logo-diciplina" transform="translate(-162 -301)">
+    <text id="Diciplinas" transform="translate(232 323)" fill="#fff" font-size="16" font-family="Rubik"><tspan x="-35.792" y="0">Diciplinas</tspan></text>
+    <g id="logo-arquivo" transform="translate(162 301)">
+      <circle id="Elipse_10" data-name="Elipse 10" cx="16.5" cy="16.5" r="16.5" fill="#fff" opacity="0.32"/>
+      <g id="baseline-computer-24px" transform="translate(6.777 6.739)">
+        <path id="Caminho_1386" data-name="Caminho 1386" d="M0,0H20.776V20.776H0Z" fill="none"/>
+      </g>
+      <g id="_706955771543238882" data-name="706955771543238882" transform="translate(11.294 9.896)">
+        <path id="Caminho_2148" data-name="Caminho 2148" d="M11.006,2H5.4A1.385,1.385,0,0,0,4,3.368V14.313a1.385,1.385,0,0,0,1.4,1.368h8.407a1.385,1.385,0,0,0,1.4-1.368V6.1Z" transform="translate(-4 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Caminho_2149" data-name="Caminho 2149" d="M14,2V6.1h4.2" transform="translate(-6.994 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Linha_6" data-name="Linha 6" x1="5.647" transform="translate(2.969 8.037)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Linha_7" data-name="Linha 7" x1="5.647" transform="translate(2.969 10.296)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Caminho_2150" data-name="Caminho 2150" d="M9.4,9H8" transform="translate(-5.198 -4.211)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
