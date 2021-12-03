@@ -1,0 +1,73 @@
+@mixin font-18px-a() {
+    font-size: 18px;
+    color: $color-a;
+    font-weight: 500;
+}
+
+@mixin font-18px-b() {
+    font-size: 18px;
+    color: $color-b;
+    font-weight: 500;
+}
+
+@mixin font-16px-c() {
+    font-size: 16px;
+    color: $color-c;
+    font-weight: 200;
+}
+
+@mixin font-18px-b-devs() {
+    font-size: 18px;
+    color: #262626;
+    font-weight: 500;
+}
+
+@mixin font-18px-g() {
+    font-size: 18px;
+    color: $color-g;
+    font-weight: 500;
+}
+
+@mixin font-18px-c() {
+    font-size: 18px;
+    color: $color-c;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+@mixin font-18px-c6-400() {
+    font-size: 18px;
+    color: #262626;
+    font-weight: 400;
+}
+
+@mixin font-14px-c6-200() {
+    font-size: 14px;
+    color: color-c;
+    font-weight: 400;
+}
+
+@mixin font-14px-c() {
+    font-size: 14px;
+    color: $color-c;
+    font-weight: 400;
+}
+
+@mixin font-40px-a() {
+    font-size: 0, 35px;
+    color: $color-a;
+    font-weight: 400;
+}
+
+@mixin fonte-40px-a() {
+    font-size: 40px;
+    color: $color-a;
+    font-weight: 500;
+}
+
+@mixin fonte-28px-g() {
+    font-size: 28px;
+    color: $color-g;
+    font-weight: 500;
+}

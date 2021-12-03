@@ -1,0 +1,76 @@
+#e-cursos {
+    .classes {
+        height: 440px;
+        position: relative;
+    }
+    .eclasse {
+        font-size: 18px;
+        color: $color-a;
+        position: relative;
+        top: 68px;
+    }
+    .box-ecursis {
+        position: relative;
+        top: 94px;
+        width: 100%;
+        height: 93px;
+        background: #FEFAF8;
+        border-radius: 5px;
+        border: solid 2px $color-a;
+        transition: .4s ease-out;
+        padding: 41px 16px 0 16px;
+        overflow: hidden;
+        &:hover {
+            height: 221px;
+        }
+        h2 {
+            font-size: 16px;
+            color: #828282;
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 50px;
+                height: 6px;
+                background: $color-a;
+                border-radius: 50px;
+                left: 50%;
+                transform: translatex(-50%);
+                bottom: -8px;
+                transition: .3s;
+            }
+        }
+        &:hover h2::before {
+            width: 250px;
+        }
+        &:hover .classes ul li {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+        .classes {
+            position: relative;
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    opacity: 0;
+                    transform: translateY(100px);
+                    transition: .4s cubic-bezier(0.215, 0.610, 0.355, 1);
+                    transition-delay: calc(0.2s * var(--i));
+                    margin: 8px;
+                    padding: 0;
+                    a {
+                        color: #828282;
+                        text-decoration: none;
+                        margin: 0;
+                        padding: 0;
+                        font-weight: 400;
+                        &:hover {
+                            color: #4E4E4E;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

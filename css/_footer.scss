@@ -1,0 +1,55 @@
+#footer {
+    background: #4e4e4e;
+    width: 100%;
+    img {
+        width: 200px;
+    }
+    .footer-redes {
+        margin-left: 60px;
+        a {
+            color: #828282;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 2px 0;
+            &:hover {
+                color: $color-a;
+            }
+            i {
+                margin-right: 18px;
+            }
+        }
+    }
+    .footer-serviço {
+        margin-top: 59px;
+        h5 {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 200;
+        }
+        ul {
+            a {
+                color: #828282;
+                font-size: 14px;
+                font-weight: 200;
+                text-decoration: none;
+                line-height: 18px;
+                &:hover {
+                    color: $color-a;
+                }
+            }
+        }
+    }
+    .footer-inf {
+        h6 {
+            color: #ffffff;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    h4 {
+        color: #ffffff;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
