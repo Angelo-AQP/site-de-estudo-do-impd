@@ -1,0 +1,7 @@
+<svg id="btn-player" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <path id="Caminho_5" data-name="Caminho 5" d="M13,8,0,0V16Z" transform="translate(16.86 14)" fill="#ff4311"/>
+  <g id="Elipse_2" data-name="Elipse 2" fill="none" stroke="#ff4311" stroke-width="2">
+    <circle cx="22" cy="22" r="22" stroke="none"/>
+    <circle cx="22" cy="22" r="21" fill="none"/>
+  </g>
+</svg>
