@@ -1,0 +1,49 @@
+// Importados os arquivos scss
+@import '../css/reset';
+@import 'variaves';
+@import 'mixins';
+@import 'header';
+@import '_fixd-header';
+@import 'slider';
+@import '_responcivo';
+@import 'objetivos';
+@import 'sevicos';
+@import 'cervicos-disponives';
+@import 'devs';
+@import 'noticias';
+@import 'cursos';
+@import 'acessa-materia';
+@import 'acessa-c';
+@import 'logi-home';
+@import 'footer';
+//...
+//...
+//---------------------------- topicos-impd-----------------..
+@import '_timpd-header';
+@import 'header-texto';
+@import 'e-cursos';
+//----------------------------// topicos-impd //-----------------..
+//...
+//...
+//---------------------------- topico-impd-10-classe -----------------..
+@import '_topico-impd-10-classe';
+@import '_topicos';
+//----------------------------// topico-impd-10-classe //-----------------..
+//...
+//...
+//----------------------------curso-algoritimo-----------------..
+@import 'curso-algoritimo';
+//----------------------------//curso-algoritimo//-----------------..
+//...
+//...
+//----------------------------biblioteca-impd-----------------..
+@import 'biblioteca-impd';
+//----------------------------//biblioteca-impdo//-----------------..
+//...
+//...
+//----------------------------biblioteca-impd-----------------..
+@import 'impd-provas'; //----------------------------//biblioteca-impdo//-----------------..
+//...
+//...
+//----------------------------biblioteca-impd-----------------..
+@import '_impd-tp' //----------------------------//biblioteca-impdo//-----------------..

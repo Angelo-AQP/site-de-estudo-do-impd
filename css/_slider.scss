@@ -1,0 +1,105 @@
+#slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .container {
+        height: 100vh;
+        position: relative;
+    }
+    h1 {
+        font-size: 48px;
+        font-weight: 600;
+        color: $color-b;
+        line-height: 68px;
+        margin-bottom: 15px;
+    }
+    .alinha-slider {
+        margin-top: 50px;
+    }
+    h5 {
+        @include font-18px-a;
+    }
+    p {
+        @include font-14px-c;
+        padding-right: 100px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .btn {
+        background: $color-a;
+        color: $color-g;
+        width: 153px;
+        height: 48px;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        margin-top: 34px;
+        &:hover {
+            background: $color-f;
+        }
+    }
+    .redes {
+        position: relative;
+        margin-top: 24px;
+    }
+    .redes a {
+        font-size: 16px;
+        color: $color-c;
+        margin-right: 16px;
+    }
+    .box-img-slider {
+        position: relative;
+    }
+    .box-container {
+        bottom: 0;
+        position: absolute;
+        display: flex;
+    }
+    .box-ser {
+        background: #eee;
+        padding: 10px 8px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 7px;
+        }
+        span {
+            font-size: 14px;
+            color: $color-c;
+            font-weight: 400;
+            line-height: 19px;
+        }
+    }
+    .carousel-indicators {
+        li {
+            position: relative;
+            top: 40px;
+            padding: 0 0 0 0s;
+            width: 7px;
+            height: 7px;
+            border-radius: 100%;
+            background: $color-g;
+            border: 2px solid $color-c;
+            &.active {
+                border: 2px solid $color-a;
+            }
+        }
+    }
+    .carousel-control-next {
+        position: absolute;
+        top: 100%;
+        bottom: -34px;
+        margin-right: 100px;
+    }
+    .carousel-control-prev {
+        position: absolute;
+        top: 100%;
+        bottom: -34px;
+        margin-left: 100px;
+    }
+}
